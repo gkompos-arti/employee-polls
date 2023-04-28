@@ -16,6 +16,10 @@ To get started developing right away:
 - install all project dependencies with `npm install`
 - start the development server with `npm start`
 
+To run the test:
+
+- run `npm test`
+
 ## What You're Getting
 
 ```bash
