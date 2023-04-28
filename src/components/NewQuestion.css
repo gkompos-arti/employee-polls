@@ -1,0 +1,31 @@
+.create-poll-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.create-poll-title {
+    text-align: center;
+    margin-bottom: 16px;
+}
+  
+.create-poll-subtitle {
+    text-align: center;
+    margin-bottom: 64px;
+    color: #808080;
+}
+  
+.create-poll-input {
+    background-color: #fff;
+}
+  
+.create-poll-button {
+    background-color: #63b2ac;
+    color: #fff;
+    text-transform: none;
+    font-weight: 500;
+    &:hover {
+      background-color: #3e7974;
+    }
+}

@@ -1,0 +1,42 @@
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLinks {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.2s ease-in-out;
+}
+
+.navLink:hover {
+  color: #ffff00;
+  border-bottom-color: #ffff00;
+}
+
+.navLink.active {
+  color: #ffff00;
+  border-bottom-color: #ffff00;
+}
+
+.navProfile {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end;
+} 
+.navAvatar {
+  margin-right: 8px;
+}
+.MuiToolbar-root {
+  background-color: #636ab2;
+}
